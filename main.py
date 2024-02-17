@@ -77,7 +77,7 @@ if time_difference > 0:
 sender = 'giorgiduchidze2004@gmail.com'
 
 subject = "Exam In Python"
-yag = yagmail.SMTP(user=sender, password='dxpxyypptbcswzoi')
+yag = yagmail.SMTP(user=sender, password='YourPassword')
 df = pandas.read_csv('names.csv')
 for index, row in df.iterrows():
     content = f"""Hello {row['name']}, You Have Exam in Python auditory:{row['auditory']}, place:{row['place']}, Data and Time:{row['date']} on {row['time']},  """
