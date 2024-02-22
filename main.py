@@ -85,7 +85,7 @@ sender = 'giorgiduchidze2004@gmail.com'
 subject = "Exam In Python"
 
 # Connect to SMTP server
-yag = yagmail.SMTP(user=sender, password='dxpxyypptbcswzoi')
+yag = yagmail.SMTP(user=sender, password='yourpassword')
 
 # Read data from CSV file
 df = pandas.read_csv('names.csv')
