@@ -81,11 +81,11 @@ if time_difference > 0:
     time.sleep(time_difference)
 
 # Email sender information
-sender = 'giorgiduchidze2004@gmail.com'
+sender = 'giorgiduchidze2010@gmail.com'
 subject = "Exam In Python"
 
 # Connect to SMTP server
-yag = yagmail.SMTP(user=sender, password='yourpassword')
+yag = yagmail.SMTP(user=sender, password='dxpxyypptbcswzoi')
 
 # Read data from CSV file
 df = pandas.read_csv('names.csv')
